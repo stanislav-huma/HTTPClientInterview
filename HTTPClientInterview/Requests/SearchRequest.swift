@@ -7,8 +7,6 @@
 
 import Foundation
 
-//"https://api.github.com/search/repositories?q=Q"
-
 enum SearchRequest: RequestDetails, RequestConvertible {
     case searchRepository(String)
    
